@@ -1,0 +1,6 @@
+{
+  "name": "Volunteering 101 by EPIC",
+  "description": "A hands-on, 2-hour community workshop on the basics of good volunteering in Malaysia. Learn how to listen, build trust, and make a real difference with EPIC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

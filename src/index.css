@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-handwritten: 'Caveat', cursive;
+  --color-epic-navy: #0B1B3D;
+  --color-epic-navy-deep: #08142C;
+  --color-epic-navy-surface: #132B52;
+  --color-epic-teal: #ff821e;
+  --color-epic-cyan: #e66f12;
+  --color-epic-yellow: #FFB703;
+  --color-epic-amber: #F4A261;
+  --color-epic-coral: #FF6B35;
+  --color-epic-charcoal: #2B2D42;
+  --color-epic-tint: #FFF0E5;
+  --color-epic-paper: #FAF8F5;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  color: #2B2D42;
+  background-color: #FAF8F5;
+}
+
+/* Authentic Paper & Masking Tape Accents */
+.tape-strip {
+  background: rgba(255, 235, 179, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-left: 2px dashed rgba(200, 180, 130, 0.4);
+  border-right: 2px dashed rgba(200, 180, 130, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.tape-teal {
+  background: rgba(255, 240, 230, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-left: 2px dashed rgba(255, 130, 30, 0.3);
+  border-right: 2px dashed rgba(255, 130, 30, 0.3);
+}
+
+.tape-coral {
+  background: rgba(255, 224, 214, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-left: 2px dashed rgba(255, 107, 53, 0.3);
+  border-right: 2px dashed rgba(255, 107, 53, 0.3);
+}
+
+/* Subtle hand-drawn and grid patterns */
+.pattern-graph {
+  background-size: 28px 28px;
+  background-image: 
+    linear-gradient(to right, rgba(11, 27, 61, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(11, 27, 61, 0.035) 1px, transparent 1px);
+}
+
+.pattern-dots {
+  background-image: radial-gradient(rgba(11, 27, 61, 0.07) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+.handwritten {
+  font-family: var(--font-handwritten);
+}
